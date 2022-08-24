@@ -1,0 +1,47 @@
+p i {
+  color: red;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
+a {
+  color: green;
+}
+
+p .line {
+  color: gray;
+}
+
+b {
+  color: purple;
+}
+
+a[href^='.com'] {
+  color: black;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+a[href$='.com'] {
+  color: black;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.even b {
+  text-decoration: underline;
+}
