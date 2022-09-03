@@ -116,9 +116,37 @@
 }
 
 body {
-  font-family: 'Roboto', 'Arial', 'Helvetica', 'Sans-Serif';
+  font-family: 'Roboto';
 }
 
 ol a {
   font-weight: bold;
+}
+
+h1 {
+  color: red;
+  font-family: 'Julius Sans One';
+  font-size: 35px;
+}
+
+ul li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+
+h3 {
+  color: green;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+h2 {
+  color: purple;
+  font-family: 'Julius Sans One';
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+p {
+  line-height: 23px;
 }
