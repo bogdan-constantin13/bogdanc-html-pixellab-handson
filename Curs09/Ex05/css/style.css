@@ -4,45 +4,68 @@
   display: inline-block;
 }
 
+/* BOX RED */
 .box-red {
   background-color: red;
 }
+/* definim tranzitia pe starea de repaus */
+.box-red {
+  transition: width 3s linear;
+}
+/* definim valorile pentru transform pe hover */
+.box-red:hover {
+  width: 120px;
+}
 
+/* BOX GREEN */
 .box-green {
   background-color: green;
 }
-
-.box-purple {
-  background-color: purple;
-}
-
-.box-brown {
-  background-color: brown;
-}
-
-.box-yellow {
-  background-color: yellow;
-}
-
-/* insert code  */
-
-/* definim tranzitia pe starea de repaus */
 
 .box-green {
   transition: transform 5s linear;
 }
 
-/* definim valorile pentru transform pe hover */
-
 .box-green:hover {
   transform: rotate(360deg) scale(1.5);
 }
 
+/* BOX PURPLE */
 .box-purple {
-  transition: width 4s ease 1s, height 4s ease 4s;
+  background-color: purple;
+}
+
+.box-purple {
+  transition: width 4s ease 1s, height 4s ease 1s;
 }
 
 .box-purple:hover {
   width: 100px;
   height: 100px;
+}
+
+/* BOX BROWN */
+.box-brown {
+  background-color: brown;
+}
+
+.box-brown {
+  transition: transform 4s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+/* BOX YELLOW */
+.box-yellow {
+  background-color: yellow;
+}
+
+.box-yellow {
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }
