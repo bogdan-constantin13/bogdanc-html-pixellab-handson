@@ -1,12 +1,42 @@
 /* add code here */
 
+/* #header h1 {  #header  punem pe element
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+} */
 
+.header.header h1 {
+  color: green;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+/* nu este recomandat */
+/* p.para {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+} */
+
+/* in pixeltab corect:
+#container p {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+} */
+
+/* exemplu la clasa */
+#container .para {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+}
 
 /* add code here */
 
-
 h1 {
- color: red;
+  color: red;
 }
 
 .header h1 {
@@ -18,6 +48,6 @@ p {
 }
 
 .para {
-  text-decoration: none; 
-  color: blueviolet
+  text-decoration: none;
+  color: blueviolet;
 }
