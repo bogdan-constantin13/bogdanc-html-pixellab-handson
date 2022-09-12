@@ -1,11 +1,32 @@
+/* cerinta 1 - done */
+/* cerinta 2 */
 input[type='checkbox']:checked + label {
   color: green;
 }
 
-input[type='radio'] + label {
-  background-color: lightpink;
-}
-
+/* cerinta 3 */
 input[type='radio']:checked + label {
   background-color: lightgreen;
+}
+
+/* cerinta 4 */
+/* m-am gandit ca Judetul nu ar trebui sa fie colorat cu rosu */
+select option:checked:nth-of-type(1) {
+  color: black;
+  font-weight: normal;
+}
+
+select option:checked {
+  color: red;
+  font-weight: bold;
+}
+
+/* cerinta 5 */
+input[type='checkbox'] + label {
+  color: lightpink;
+}
+
+/* cerinta 6 */
+input[type='radio'] + label {
+  background-color: lightpink;
 }

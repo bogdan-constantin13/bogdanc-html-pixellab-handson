@@ -1,0 +1,61 @@
+/* cerinta 1 */
+.nested > li:first-child a {
+  text-decoration: none;
+}
+
+/* cerinta 2 */
+.nested > li > ul > li:last-child a {
+  text-decoration: none;
+}
+
+/* cerinta 3 */
+.last-list li:nth-child(2n + 1) {
+  background-color: yellow;
+}
+
+/* cerinta 4 */
+.my-list > li:nth-child(3) {
+  background-color: gray;
+}
+
+/* cerinta 5 */
+/* Coloreaza verde fiecare al patrulea element h3 din document (:nth-of-type)  = h3:nth-of-type(4n)*/
+body h3:nth-of-type(4) {
+  color: green;
+}
+
+/* cerinta 6 */
+body h2:nth-of-type(2n + 1) {
+  color: blue;
+  background-color: green;
+}
+
+/* cerinta 7 */
+ul.u-line li:first-child {
+  text-decoration: underline;
+}
+
+/* cerinta 8 */
+ul li:last-child {
+  text-decoration: underline;
+}
+
+/* Cerinta 9 */
+.last-list li:nth-child(2) a {
+  text-decoration: line-through;
+}
+
+/* cerinta 10 */
+ul li ul li:nth-child(3) {
+  color: purple;
+}
+/* cerinta 11 */
+p:nth-of-type(2n + 1) {
+  background-color: brown;
+  padding: 15px; /* padding orizontal 15px? */
+}
+/* cerinta 12 */
+body > ul > li:nth-of-type(3n) {
+  padding: 8px;
+  border: 1px solid black;
+}
